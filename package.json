@@ -1,24 +1,27 @@
 {
-    "name": "credit-card-brand",
+    "name": "mathematical-constant",
     "version": "1.0.0",
-    "main": "index.js",
-    "repository": "https://github.com/lucasAguiar11/credit-card-brand.git",
-    "author": "Lucas Aguiar <lucas99.abreu@gmail.com>",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "files": [
+      "build"
+    ],
+    "repository": "https://github.com/lucasAguiar11/mathematical-constant.git",
+    "author": "Lucas Aguiar <lucas.aguiar.developer@gmail.com.br>",
     "license": "MIT",
     "scripts": {
-        "dev": "nodemon",
+        "dev": "yarn ts-node ./src/index.ts",
         "build": "rimraf ./build && tsc",
-        "start": "npm run build && node build/index.js",
+        "start": "yarn build && node build/index.js",
         "lint": "eslint . --ext .ts"
     },
     "devDependencies": {
-        "@types/node": "^18.6.4",
-        "@typescript-eslint/eslint-plugin": "^5.32.0",
-        "@typescript-eslint/parser": "^5.32.0",
-        "eslint": "^8.21.0",
+        "@types/node": "^18.7.6",
+        "@typescript-eslint/eslint-plugin": "^5.33.1",
+        "@typescript-eslint/parser": "^5.33.1",
+        "eslint": "^8.22.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-prettier": "^4.2.1",
-        "nodemon": "^2.0.19",
         "prettier": "^2.7.1",
         "rimraf": "^3.0.2",
         "ts-node": "^10.9.1",
