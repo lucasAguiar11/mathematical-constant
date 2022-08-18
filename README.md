@@ -1,5 +1,5 @@
 
-# pi-decimals
+# mathematical-constant
 
 
 ![Downloads](https://img.shields.io/npm/dt/mathematical-constant.svg)
