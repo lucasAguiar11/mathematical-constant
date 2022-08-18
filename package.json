@@ -1,11 +1,11 @@
 {
   "name": "mathematical-constant",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
     "build",
-    "src/data/*"
+    "data/*"
   ],
   "repository": "https://github.com/lucasAguiar11/mathematical-constant.git",
   "author": "Lucas Aguiar <lucas.aguiar.developer@gmail.com.br>",
